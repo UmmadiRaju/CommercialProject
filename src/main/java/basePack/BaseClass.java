@@ -23,7 +23,7 @@ public class BaseClass {
 	  driver = new ChromeDriver();
 	  driver.manage().window().maximize();
 	  driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-	  FileInputStream file = new FileInputStream("D:/JavaPracticeCodes2025/orangehrm/src/test/resources/testData/TestDataFile");
+	  FileInputStream file = new FileInputStream(System.getProperty("user.dir")+"/src/test/resources/testData/TestDataFile");
 	  obj = new Properties();
 	  obj.load(file);
   }

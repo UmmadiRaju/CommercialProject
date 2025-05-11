@@ -21,7 +21,7 @@ public class ReusableCode extends TestExecute{
 	
 	public static void screenshot(String i) throws IOException {
 		File s = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
-		File t = new File("D:/JavaPracticeCodes2025/orangehrm/TestEvidences/"+i+".png");
+		File t = new File(System.getProperty("user.dir")+ "/TestEvidences/"+i+".png");
 		FileHandler.copy(s, t);
 	}
 
