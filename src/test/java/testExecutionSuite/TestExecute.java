@@ -9,6 +9,6 @@ public class TestExecute extends BaseClass {
 	@Test
 	public void Testing() throws IOException, InterruptedException {
 		TestScript test = new TestScript();
-		test.login();
+		//test.register();
 	}  
 }

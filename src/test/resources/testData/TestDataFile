@@ -1,10 +1,3 @@
-URL = http://127.0.0.1/orangehrm-2.5.0.2/login.php
-
-XUN 	= //input[@name = 'txtUserName']
-XPWD	= //input[@name = 'txtPassword']
-XCLK	= //input[@type = 'Submit']
-
-UN		= selenium
-PWD		= Raju@123
+URL = https://automationexercise.com/
 
 
