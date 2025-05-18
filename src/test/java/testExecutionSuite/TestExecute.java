@@ -7,8 +7,11 @@ import basePack.BaseClass;
 
 public class TestExecute extends BaseClass {
 	@Test
-	public void Testing() throws IOException, InterruptedException {
-		TestScript test = new TestScript();
+	public void Login() throws IOException, InterruptedException {
+		//TestScript test = new TestScript();
 		//test.register();
+		Login l = new Login();
+		l.logintest();
+		
 	}  
 }

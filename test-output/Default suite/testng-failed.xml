@@ -6,8 +6,8 @@
       <class name="testExecutionSuite.TestExecute">
         <methods>
           <include name="afterTest"/>
-          <include name="Testing"/>
           <include name="beforeTest"/>
+          <include name="Login"/>
         </methods>
       </class> <!-- testExecutionSuite.TestExecute -->
     </classes>

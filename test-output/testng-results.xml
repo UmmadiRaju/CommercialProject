@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-05-11T21:29:00 IST" name="Default suite" finished-at="2025-05-11T21:29:42 IST" duration-ms="42251">
+  <suite started-at="2025-05-18T21:07:32 IST" name="Default suite" finished-at="2025-05-18T21:07:52 IST" duration-ms="19758">
     <groups>
     </groups>
-    <test started-at="2025-05-11T21:29:00 IST" name="Default test" finished-at="2025-05-11T21:29:42 IST" duration-ms="42251">
+    <test started-at="2025-05-18T21:07:32 IST" name="Default test" finished-at="2025-05-18T21:07:52 IST" duration-ms="19758">
       <class name="testExecutionSuite.TestExecute">
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:testExecutionSuite.TestExecute@445b295b]" started-at="2025-05-11T21:29:00 IST" name="beforeTest" finished-at="2025-05-11T21:29:10 IST" duration-ms="10507" status="PASS">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:testExecutionSuite.TestExecute@8458f04]" started-at="2025-05-18T21:07:33 IST" name="beforeTest" finished-at="2025-05-18T21:07:42 IST" duration-ms="9698" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method signature="Testing()[pri:0, instance:testExecutionSuite.TestExecute@445b295b]" started-at="2025-05-11T21:29:10 IST" name="Testing" finished-at="2025-05-11T21:29:42 IST" duration-ms="31594" status="PASS">
+        <test-method signature="Login()[pri:0, instance:testExecutionSuite.TestExecute@8458f04]" started-at="2025-05-18T21:07:42 IST" name="Login" finished-at="2025-05-18T21:07:50 IST" duration-ms="8221" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Testing -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:testExecutionSuite.TestExecute@445b295b]" started-at="2025-05-11T21:29:42 IST" name="afterTest" finished-at="2025-05-11T21:29:42 IST" duration-ms="1" status="PASS">
+        </test-method> <!-- Login -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:testExecutionSuite.TestExecute@8458f04]" started-at="2025-05-18T21:07:50 IST" name="afterTest" finished-at="2025-05-18T21:07:52 IST" duration-ms="1764" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->

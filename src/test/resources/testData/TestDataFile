@@ -1,3 +1,12 @@
 URL = https://automationexercise.com/
 
+xp = //a[@href="/login"]
+xe = //input[@name='email']
+email = likar10085@deusa7.com
+
+xpd = //input[@name='password']
+password = Raju@1234
+
+xl = //button[@type="submit"]
+
 
