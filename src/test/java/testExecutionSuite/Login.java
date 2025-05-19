@@ -10,6 +10,6 @@ public class Login extends ReusableCode {
 		xp("xpd").sendKeys(obj.getProperty("password")); // Password Field
 		xp("xl").click(); // Login Button
 		timeout(2);
-		screenshot("login");
+		screenshot("login");// Screenshot
 	}
 }
