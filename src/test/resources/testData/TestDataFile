@@ -1,12 +1,68 @@
 URL = https://automationexercise.com/
 
+
 xp = //a[@href="/login"]
-xe = //input[@name='email']
-email = likar10085@deusa7.com
+xn = //input[@name="name"]
+uname = raju
+xemail= //input[@data-qa="signup-email"]
+email= deepika20@gmail.com
+em = deepika7@gmail.com
+xsign= //button[text()='Signup']
+info= //b[text()='Enter Account Information']
 
-xpd = //input[@name='password']
-password = Raju@1234
 
-xl = //button[@type="submit"]
+xradio= //input[@type='radio' and @value='Mrs']
+xpwd= //input[@type='password']
+pwd= deepika
+xday= //select[@id='days']/option[@value='15']
+xmonth= //select[@data-qa="months"]/option[@value='3']
+xyear= //select[@data-qa="years"]/option[@value='2007']
+
+
+xcheck= //input[@name="newsletter"]
+xc= //input[@name="optin"]
+
+aname= //input[@id="first_name"]
+name = malla
+alast = //input[@id="last_name"]
+last = deepika
+cm= //input[@id="company"]
+com= cgi 
+ad = //input[@id="address1"]
+address= hyd
+ad2 = //input[@id="address2"]
+address2 = gachibowli
+country= //select[@id="country"] /option[@value="India"]
+st= //input[@id="state"]
+state= andhra pradesh
+ct = //input[@id="city"]
+city = vizag
+zp = //input[@id="zipcode"]
+zipcode = 531036
+ph = //input[@id="mobile_number"]
+phone = 9087654321
+create= //button[text()='Create Account']
+verify= //b[text()='Account Created!']
+cnt= //a[text()='Continue']
+lu= //a[contains(text(), 'Logged in as')]//following::b[1]
+del=//a[@href='/delete_account']
+dc=//b[text()="Account Deleted!"]
+cc=//a[text()="Continue"]
+vr=//p[text()="Email Address already exist!"]
+ts=//a[@href="/test_cases"]
+test=//b[text()="Test Cases"]
+xz= //a[contains(text(), 'Logged in as') and descendant::b]
+
+
+
+
+
+
+
+
+
+
+
+
 
 
