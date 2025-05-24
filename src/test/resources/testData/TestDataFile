@@ -43,7 +43,7 @@ address2 = gachibowli
 country= //select[@id="country"] /option[@value="India"]
 st= //input[@id="state"]
 state= andhra pradesh
-ct = //input[@id="city"]
+ctx = //input[@id="city"]
 city = vizag
 zp = //input[@id="zipcode"]
 zipcode = 531036
