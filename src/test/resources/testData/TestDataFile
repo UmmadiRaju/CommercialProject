@@ -1,11 +1,19 @@
 URL = https://automationexercise.com/
 
 
+loginxpath------------
+xe = //input[@data-qa="login-email"]
+xpd = //input[@data-qa="login-password"]
+xl = //button[@data-qa="login-button"]
+emailid = moliyir473@leabro.com
+
+
+Registerxpath---------------------
 xp = //a[@href="/login"]
 xn = //input[@name="name"]
 uname = raju
 xemail= //input[@data-qa="signup-email"]
-email= deepika20@gmail.com
+email= deepika36@gmail.com
 em = deepika7@gmail.com
 xsign= //button[text()='Signup']
 info= //b[text()='Enter Account Information']
@@ -13,7 +21,7 @@ info= //b[text()='Enter Account Information']
 
 xradio= //input[@type='radio' and @value='Mrs']
 xpwd= //input[@type='password']
-pwd= deepika
+pwd= Raju@123
 xday= //select[@id='days']/option[@value='15']
 xmonth= //select[@data-qa="months"]/option[@value='3']
 xyear= //select[@data-qa="years"]/option[@value='2007']

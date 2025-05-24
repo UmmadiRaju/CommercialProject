@@ -7,6 +7,7 @@ import basePack.BaseClass;
 
 public class TestExecute extends BaseClass {
 	Register r;
+	Login l;
 	@Test(priority=1)
 	public void Register() throws IOException, InterruptedException {
 	 r = new Register();
@@ -19,11 +20,16 @@ public class TestExecute extends BaseClass {
 		 r.existing();
 		
 	}
-	//@Test(priority=3)
+	
+	@Test(priority=3)
 	public void Testcasepage()throws IOException, InterruptedException{
 		Testcasepage t=new Testcasepage();
 		t. tpage();
-		
 	}
 	
+	@Test(priority=4)
+	public void Login() throws InterruptedException, IOException {
+		l = new Login();
+		l.logintest();
+	}
 }
