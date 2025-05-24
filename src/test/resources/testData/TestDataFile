@@ -7,6 +7,13 @@ xpd = //input[@data-qa="login-password"]
 xl = //button[@data-qa="login-button"]
 emailid = moliyir473@leabro.com
 
+Incorrectpath-----------
+incemail = ramdvn123@gmail.com
+incpwd = Rajuuu
+
+Logout----------------
+logout = //a[@href="/logout"]
+
 
 Registerxpath---------------------
 xp = //a[@href="/login"]

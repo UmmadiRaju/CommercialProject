@@ -8,6 +8,11 @@
           <include name="afterTest"/>
           <include name="Existingmail"/>
           <include name="beforeTest"/>
+          <include name="Login"/>
+          <include name="Incorrectlogin"/>
+          <include name="Testcasepage"/>
+          <include name="Logout"/>
+          <include name="Register"/>
         </methods>
       </class> <!-- testExecutionSuite.TestExecute -->
     </classes>

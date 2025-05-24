@@ -32,4 +32,16 @@ public class TestExecute extends BaseClass {
 		l = new Login();
 		l.logintest();
 	}
+	
+	@Test(priority=5)
+	public void Logout() throws InterruptedException, IOException {
+		l = new Login();
+		l.logout();
+	}
+	
+	@Test(priority=6)
+	public void Incorrectlogin() throws InterruptedException, IOException {
+		l = new Login();
+		l.inclogin();
+	}
 }
