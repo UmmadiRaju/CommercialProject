@@ -48,7 +48,7 @@ public class Register extends ReusableCode {
 		xp("ad2").sendKeys(obj.getProperty("address2"));//enter address2
 		xp("country").click();//select country
 		xp("st").sendKeys(obj.getProperty("state"));//enter the state
-		xp("ct").sendKeys(obj.getProperty("city"));//enter the city
+		xp("ctx").sendKeys(obj.getProperty("city"));//enter the city
 		xp("zp").sendKeys(obj.getProperty("zipcode"));//enter the zipcode
 		xp("ph").sendKeys(obj.getProperty("phone"));//enter the phoneno
 		xp("create").click();//click on create
