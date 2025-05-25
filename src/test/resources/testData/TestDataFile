@@ -58,19 +58,37 @@ dc=//b[text()="Account Deleted!"]
 cc=//a[text()="Continue"]
 vr=//p[text()="Email Address already exist!"]
 ts=//a[@href="/test_cases"]
+
 test=//b[text()="Test Cases"]
 xz= //a[contains(text(), 'Logged in as') and descendant::b]
 
+-----------------------------------------------------------
+Contact Us
+-----------------------------------------------------------
+contact_us=//a[@href="/contact_us"]
+get_in_touch=//h2[text()="Get In Touch"]
+contact_name=//input[@name="name"]
+cname=Vasantha
+contact_email=//input[@name="email"]
+cemail=test@gamil.com
+contact_subject=//input[@name="subject"]
+csubject=Testing this field & with ID_123
+contact_message=//textarea[@name="message"]
+cmessage=Testing this textarea  & with ID_111 We really appreciate your response to our website.
+contact_upload=//input[@name="upload_file"]
+contact_submit=//input[@name="submit"]
 
+success=//div[contains(text(),"Success! Your" )and (@class="status alert alert-success")]
+contact_home=//a[@class="btn btn-success"]
 
-
-
-
-
-
-
-
-
-
+-----------------------------------------------------------------------------------------
+Subscription in homepage and Cart page
+-----------------------------------------------------------------------------------------
+subscribe_email=//input[@id="susbscribe_email"]
+semail=test1@gmail.com
+subscription=//h2[text()="Subscription"]
+submit=//button[@id="subscribe"]
+subscribe_message=//div[text()="You have been successfully subscribed!"]
+subscribe_cart=//a[(@href="/view_cart") and (text()=" Cart")]
 
 

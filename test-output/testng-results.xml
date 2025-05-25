@@ -1,33 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="5" total="6" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-05-24T12:50:35 IST" name="Default suite" finished-at="2025-05-24T12:51:26 IST" duration-ms="51031">
+  <suite started-at="2025-05-25T23:46:06 IST" name="Default suite" finished-at="2025-05-25T23:46:21 IST" duration-ms="14764">
     <groups>
     </groups>
-    <test started-at="2025-05-24T12:50:35 IST" name="Default test" finished-at="2025-05-24T12:51:26 IST" duration-ms="51031">
+    <test started-at="2025-05-25T23:46:06 IST" name="Default test" finished-at="2025-05-25T23:46:21 IST" duration-ms="14764">
       <class name="testExecutionSuite.TestExecute">
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:testExecutionSuite.TestExecute@7a35b0f5]" started-at="2025-05-24T12:50:35 IST" name="beforeTest" finished-at="2025-05-24T12:50:43 IST" duration-ms="8201" status="PASS">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:testExecutionSuite.TestExecute@3590fc5b]" started-at="2025-05-25T23:46:06 IST" name="beforeTest" finished-at="2025-05-25T23:46:15 IST" duration-ms="8692" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method signature="Register()[pri:1, instance:testExecutionSuite.TestExecute@7a35b0f5]" started-at="2025-05-24T12:50:43 IST" name="Register" finished-at="2025-05-24T12:51:06 IST" duration-ms="23581" status="PASS">
+        <test-method signature="Subscription_homepage()[pri:10, instance:testExecutionSuite.TestExecute@3590fc5b]" started-at="2025-05-25T23:46:15 IST" name="Subscription_homepage" finished-at="2025-05-25T23:46:21 IST" duration-ms="5642" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Register -->
-        <test-method signature="Existingmail()[pri:2, instance:testExecutionSuite.TestExecute@7a35b0f5]" started-at="2025-05-24T12:51:06 IST" name="Existingmail" finished-at="2025-05-24T12:51:15 IST" duration-ms="8244" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Existingmail -->
-        <test-method signature="Testcasepage()[pri:3, instance:testExecutionSuite.TestExecute@7a35b0f5]" started-at="2025-05-24T12:51:15 IST" name="Testcasepage" finished-at="2025-05-24T12:51:18 IST" duration-ms="3044" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Testcasepage -->
-        <test-method signature="Login()[pri:4, instance:testExecutionSuite.TestExecute@7a35b0f5]" started-at="2025-05-24T12:51:18 IST" name="Login" finished-at="2025-05-24T12:51:25 IST" duration-ms="7039" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Login -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:testExecutionSuite.TestExecute@7a35b0f5]" started-at="2025-05-24T12:51:25 IST" name="afterTest" finished-at="2025-05-24T12:51:26 IST" duration-ms="828" status="PASS">
+        </test-method> <!-- Subscription_homepage -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:testExecutionSuite.TestExecute@3590fc5b]" started-at="2025-05-25T23:46:21 IST" name="afterTest" finished-at="2025-05-25T23:46:21 IST" duration-ms="365" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
