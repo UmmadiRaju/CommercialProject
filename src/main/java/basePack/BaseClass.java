@@ -34,8 +34,9 @@ public class BaseClass {
 		options.setExperimentalOption("prefs", obj1);
 
 		// Start Chrome in incognito mode and disable notifications
-		//options.addArguments("--incognito");
+		options.addArguments("--incognito");
 		options.addArguments("--disable-notifications");
+		options.addArguments("--disable-save-password-bubble");
 		
 		driver = new ChromeDriver(options);
 		driver.manage().window().maximize();

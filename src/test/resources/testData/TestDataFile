@@ -1,11 +1,19 @@
 URL = https://automationexercise.com/
 
 
+loginxpath------------
+xe = //input[@data-qa="login-email"]
+xpd = //input[@data-qa="login-password"]
+xl = //button[@data-qa="login-button"]
+emailid = moliyir473@leabro.com
+
+
+Registerxpath---------------------
 xp = //a[@href="/login"]
 xn = //input[@name="name"]
 uname = raju
 xemail= //input[@data-qa="signup-email"]
-email= deepika20@gmail.com
+email= deepika36@gmail.com
 em = deepika7@gmail.com
 xsign= //button[text()='Signup']
 info= //b[text()='Enter Account Information']
@@ -13,7 +21,7 @@ info= //b[text()='Enter Account Information']
 
 xradio= //input[@type='radio' and @value='Mrs']
 xpwd= //input[@type='password']
-pwd= deepika
+pwd= Raju@123
 xday= //select[@id='days']/option[@value='15']
 xmonth= //select[@data-qa="months"]/option[@value='3']
 xyear= //select[@data-qa="years"]/option[@value='2007']
@@ -35,7 +43,7 @@ address2 = gachibowli
 country= //select[@id="country"] /option[@value="India"]
 st= //input[@id="state"]
 state= andhra pradesh
-ct = //input[@id="city"]
+ctx = //input[@id="city"]
 city = vizag
 zp = //input[@id="zipcode"]
 zipcode = 531036
@@ -49,12 +57,13 @@ del=//a[@href='/delete_account']
 dc=//b[text()="Account Deleted!"]
 cc=//a[text()="Continue"]
 vr=//p[text()="Email Address already exist!"]
-ts=//a[@href="/test_cases"]
+tsx=//a[@href="/test_cases"]
 test=//b[text()="Test Cases"]
 xz= //a[contains(text(), 'Logged in as') and descendant::b]
+home=//a[text()=" Home"]
 
 
-ct= //h2[text()="Category"]
+ctp= //h2[text()="Category"]
 xw= //a[@href="#Women"]
 cp //a[@href="/category_products/1"]
 pd =//h2[text()="Women - Dress Products"]

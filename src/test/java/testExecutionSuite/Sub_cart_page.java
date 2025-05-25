@@ -9,7 +9,7 @@ import java.io.IOException;
 import org.openqa.selenium.JavascriptExecutor;
 
 
-public class sub_cart_page extends ReusableCode {
+public class Sub_cart_page extends ReusableCode {
 	 public void cp() throws InterruptedException, IOException{
 			//Steps 1&2 are covered in the Base Class
 			//Step-3 Checking Home page Title
@@ -33,6 +33,7 @@ public class sub_cart_page extends ReusableCode {
 
 
 			timeout(3);
+			
 
 
 		 

@@ -48,15 +48,15 @@ public class Register extends ReusableCode {
 		xp("ad2").sendKeys(obj.getProperty("address2"));//enter address2
 		xp("country").click();//select country
 		xp("st").sendKeys(obj.getProperty("state"));//enter the state
-		xp("ct").sendKeys(obj.getProperty("city"));//enter the city
+		xp("ctx").sendKeys(obj.getProperty("city"));//enter the city
 		xp("zp").sendKeys(obj.getProperty("zipcode"));//enter the zipcode
 		xp("ph").sendKeys(obj.getProperty("phone"));//enter the phoneno
 		xp("create").click();//click on create
-		timeout(3);
+		timeout(1);
 		//Verify that 'ACCOUNT CREATED!' is visible
 		assertEquals(xp("verify").getText().trim(),"ACCOUNT CREATED!");
 		xp("cnt").click();//click on continue button
-		timeout(3);
+		timeout(1);
 		//Verify that 'Logged in as username' is visible
 		//WebElement login =driver.findElement(By.xpath("//a[contains(., 'Logged in as') and .//b]"));
 		//System.out.println(login.getText());
@@ -76,7 +76,8 @@ public class Register extends ReusableCode {
 	public void existing()throws InterruptedException, IOException {
 		//Steps 1&2 are covered in the Base Class
 				//Step-3 Checking Home page Title
-		        timeout(3);
+		        //timeout(3);
+		        System.out.println(driver.getTitle());
 				assertEquals(driver.getTitle(), "Automation Exercise");
 				// Click on 'Signup / Login' button
 				xp("xp").click();
@@ -91,7 +92,9 @@ public class Register extends ReusableCode {
 				xp("xsign").click();
 				//Verify error 'Email Address already exist!' is visible
 				assertEquals(xp("vr").getText(),"Email Address already exist!");
-				timeout(3);
+				timeout(1);
+				xp("home").click();
+				
 		
 		
 	}
