@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
 <testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
@@ -36,10 +37,29 @@
           </reporter-output>
         </test-method> <!-- sub_cart_page -->
         <test-method is-config="true" signature="afterTest()[pri:0, instance:testExecutionSuite.TestExecute@5dda768f]" started-at="2025-05-25T00:48:31 IST" name="afterTest" finished-at="2025-05-25T00:48:31 IST" duration-ms="581" status="PASS">
+=======
+<testng-results ignored="3" total="4" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-05-25T12:25:23 IST" name="Default suite" finished-at="2025-05-25T12:25:37 IST" duration-ms="14285">
+    <groups>
+    </groups>
+    <test started-at="2025-05-25T12:25:23 IST" name="Default test" finished-at="2025-05-25T12:25:37 IST" duration-ms="14285">
+      <class name="testExecutionSuite.ContactUs">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:testExecutionSuite.ContactUs@58ea606c]" started-at="2025-05-25T12:25:23 IST" name="beforeTest" finished-at="2025-05-25T12:25:28 IST" duration-ms="5465" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="contactUs()[pri:0, instance:testExecutionSuite.ContactUs@58ea606c]" started-at="2025-05-25T12:25:28 IST" name="contactUs" finished-at="2025-05-25T12:25:37 IST" duration-ms="8747" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contactUs -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:testExecutionSuite.ContactUs@58ea606c]" started-at="2025-05-25T12:25:37 IST" name="afterTest" finished-at="2025-05-25T12:25:37 IST" duration-ms="0" status="PASS">
+>>>>>>> 42cbaf34d97bca17529b7602b817b3acab59d5d0
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-      </class> <!-- testExecutionSuite.TestExecute -->
+      </class> <!-- testExecutionSuite.ContactUs -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

@@ -84,9 +84,31 @@ ar=//i[@class="fa fa-arrow-circle-o-right"]
 al=//div[@class="alert-success alert"]
 
 
+Product Quantity ---------------------
+XPCLK 	= //a[text()=' Products']
+XPLCLK	= //div[@class='product-image-wrapper']
+XPVCLK	= //a[text()='View Product']
+XPPM	= //div[@class='product-information']//h2
 
 
+Contact Us --------------------------
+XCUCLK	= //a[text()=' Contact us']
+XGIT	= //h2[text()='Get In Touch']
+XName	= //input[@name='name']
+XEmail	= //input[@name='email']
+XSubject= //input[@name='subject']
+XMsg	= //textarea[@name='message']
+XUFile	= //input[@name='upload_file']
+XSubmit = //input[@name='submit']
+XSuccess= //div[@class='status alert alert-success']
+XHome	= //a[@class = 'btn btn-success']
 
+CName 		= Raju
+CEmail		= yiborec762@nomrista.com
+CSubject 	= Testing the contact us test case
+CMsg		= I am Raju, automating the contact us test case
+
+Next Test Case ------------------------
 
 
 

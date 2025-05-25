@@ -6,6 +6,7 @@ import static org.testng.Assert.assertEquals;
 import java.io.IOException;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 
@@ -18,6 +19,7 @@ public class Register extends ReusableCode {
 		
 		//Verify that home page is visible successfully
 		assertEquals(driver.getTitle(),"Automation Exercise");
+		
 		//click on login 
 		xp("xp").click();
 		//Verify 'New User Signup!' is visible
@@ -35,6 +37,7 @@ public class Register extends ReusableCode {
 		//after login
         xp("xradio").click();// click on title
 		xp("xpwd").sendKeys(obj.getProperty("pwd"));//enter password
+		((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", driver.findElement(By.id("your-element-id")));
 		xp("xday").click();//enter day;
 		xp("xmonth").click();//enter month
 		xp("xyear").click();//enter year
