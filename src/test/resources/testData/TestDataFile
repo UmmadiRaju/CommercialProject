@@ -43,7 +43,7 @@ address2 = gachibowli
 country= //select[@id="country"] /option[@value="India"]
 st= //input[@id="state"]
 state= andhra pradesh
-ct = //input[@id="city"]
+ctx = //input[@id="city"]
 city = vizag
 zp = //input[@id="zipcode"]
 zipcode = 531036
@@ -57,6 +57,7 @@ del=//a[@href='/delete_account']
 dc=//b[text()="Account Deleted!"]
 cc=//a[text()="Continue"]
 vr=//p[text()="Email Address already exist!"]
+<<<<<<< HEAD
 ts=//a[@href="/test_cases"]
 
 test=//b[text()="Test Cases"]
@@ -90,5 +91,66 @@ subscription=//h2[text()="Subscription"]
 submit=//button[@id="subscribe"]
 subscribe_message=//div[text()="You have been successfully subscribed!"]
 subscribe_cart=//a[(@href="/view_cart") and (text()=" Cart")]
+=======
+tsx=//a[@href="/test_cases"]
+test=//b[text()="Test Cases"]
+xz= //a[contains(text(), 'Logged in as') and descendant::b]
+home=//a[text()=" Home"]
+
+
+ctp= //h2[text()="Category"]
+xw= //a[@href="#Women"]
+cp //a[@href="/category_products/1"]
+pd =//h2[text()="Women - Dress Products"]
+pm =//a[@href="#Men"]
+ps= //a[@href="/category_products/3"]
+pw = //h2[text()="Men - Tshirts Products"]
+sub=//h2[text()="Subscription"]
+su=//i[@class="fa fa-angle-up"]
+sp=//h2[text()="Full-Fledged practice website for Automation Engineers"]
+
+subscription cart-page
+cart=//a[@href="/view_cart"]
+footer=//*[@id="footer"]
+ts=//h2[text()="Subscription"]
+ck=//input[@id="susbscribe_email"]
+ml=xyerz@gmail.com
+ar=//i[@class="fa fa-arrow-circle-o-right"]
+al=//div[@class="alert-success alert"]
+
+
+Product Quantity ---------------------
+XPCLK 	= //a[text()=' Products']
+XPLCLK	= //div[@class='product-image-wrapper']
+XPVCLK	= //a[text()='View Product']
+XPPM	= //div[@class='product-information']//h2
+
+
+Contact Us --------------------------
+XCUCLK	= //a[text()=' Contact us']
+XGIT	= //h2[text()='Get In Touch']
+XName	= //input[@name='name']
+XEmail	= //input[@name='email']
+XSubject= //input[@name='subject']
+XMsg	= //textarea[@name='message']
+XUFile	= //input[@name='upload_file']
+XSubmit = //input[@name='submit']
+XSuccess= //div[@class='status alert alert-success']
+XHome	= //a[@class = 'btn btn-success']
+
+CName 		= Raju
+CEmail		= yiborec762@nomrista.com
+CSubject 	= Testing the contact us test case
+CMsg		= I am Raju, automating the contact us test case
+
+Next Test Case ------------------------
+
+
+
+
+
+
+
+>>>>>>> 7922af434f89e044c10b96935cdc14b30865262e
 
 
