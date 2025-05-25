@@ -7,7 +7,7 @@ import basePack.BaseClass;
 
 public class TestExecute extends BaseClass {
 	Register r;
-	//@Test(priority=1)
+	@Test(priority=1)
 	public void Register() throws IOException, InterruptedException {
 	 r = new Register();
 		r.registertest();
@@ -41,5 +41,14 @@ public class TestExecute extends BaseClass {
 		sub_cart_page c = new sub_cart_page();
 		c.cp();
 	}
-	
+	@Test(priority=7)
+	public void productQuantity() {
+		ProductQuantity p = new ProductQuantity();
+		p.productQuantity();
+	}
+	@Test(priority=8)
+	public void contactUs() throws InterruptedException {
+		ContactUs c = new ContactUs();
+		c.contactUs();
+	}
 }

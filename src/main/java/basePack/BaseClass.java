@@ -34,7 +34,7 @@ public class BaseClass {
 		options.setExperimentalOption("prefs", obj1);
 
 		// Start Chrome in incognito mode and disable notifications
-		//options.addArguments("--incognito");
+		options.addArguments("--incognito");
 		options.addArguments("--disable-notifications");
 		
 		driver = new ChromeDriver(options);
@@ -50,7 +50,7 @@ public class BaseClass {
 
 	@AfterTest
 	public void afterTest() {
-		 driver.quit();
+		// driver.quit();
 	}
 
 }
