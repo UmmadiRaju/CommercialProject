@@ -6,13 +6,9 @@
       <class name="testExecutionSuite.TestExecute">
         <methods>
           <include name="afterTest"/>
-          <include name="Existingmail"/>
           <include name="beforeTest"/>
-          <include name="Login"/>
-          <include name="Incorrectlogin"/>
+          <include name="sub_cart_page"/>
           <include name="Testcasepage"/>
-          <include name="Logout"/>
-          <include name="Register"/>
         </methods>
       </class> <!-- testExecutionSuite.TestExecute -->
     </classes>
