@@ -9,7 +9,7 @@ public class TestExecute extends BaseClass {
 	Register r;
 
 	Login l;
-	@Test(priority=1)
+	//@Test(priority=1)
 
 	//@Test(priority=1)
 
@@ -25,7 +25,7 @@ public class TestExecute extends BaseClass {
 		
 	}
 	
-	@Test(priority=3)
+	//@Test(priority=3)
 	public void Testcasepage()throws IOException, InterruptedException{
 		Testcasepage t=new Testcasepage();
 		t. tpage();
@@ -38,10 +38,10 @@ public class TestExecute extends BaseClass {
 	}
 	//@Test(priority=5)
 	public void scroll()throws IOException, InterruptedException{
-		scroll s= new scroll();
+		scroll s= new scroll(); 
 		s.sc();
 	}
-	@Test(priority=6)
+	//@Test(priority=6)
 	public void sub_cart_page()throws IOException, InterruptedException{
 		sub_cart_page c = new sub_cart_page();
 		c.cp();

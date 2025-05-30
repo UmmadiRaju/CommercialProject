@@ -5,14 +5,17 @@ loginxpath------------
 xe = //input[@data-qa="login-email"]
 xpd = //input[@data-qa="login-password"]
 xl = //button[@data-qa="login-button"]
-emailid = moliyir473@leabro.com
+emailid = xegixe8034@dlbazi.com
+xlog = //h2[contains(text(), 'Login to your account')]
 
 <<<<<<< HEAD
 Incorrectpath-----------
-incemail = ramdvn123@gmail.com
+incemail = ramdvn12@gmail.com
 incpwd = Rajuuu
+incpwdv = //p[contains(text(), "Your email or password is incorrect!")]
 
 Logout----------------
+email1 = ramdvn123@gmail.com
 logout = //a[@href="/logout"]
 
 =======
@@ -31,7 +34,7 @@ info= //b[text()='Enter Account Information']
 
 xradio= //input[@type='radio' and @value='Mrs']
 xpwd= //input[@type='password']
-pwd= Raju@123
+pwd= Raju@1234
 xday= //select[@id='days']/option[@value='15']
 xmonth= //select[@data-qa="months"]/option[@value='3']
 xyear= //select[@data-qa="years"]/option[@value='2007']
