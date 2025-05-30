@@ -6,6 +6,7 @@ import static org.testng.Assert.assertEquals;
 import java.io.IOException;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 
@@ -18,6 +19,7 @@ public class Register extends ReusableCode {
 		
 		//Verify that home page is visible successfully
 		assertEquals(driver.getTitle(),"Automation Exercise");
+		
 		//click on login 
 		xp("xp").click();
 		//Verify 'New User Signup!' is visible
@@ -35,6 +37,7 @@ public class Register extends ReusableCode {
 		//after login
         xp("xradio").click();// click on title
 		xp("xpwd").sendKeys(obj.getProperty("pwd"));//enter password
+		((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", driver.findElement(By.id("your-element-id")));
 		xp("xday").click();//enter day;
 		xp("xmonth").click();//enter month
 		xp("xyear").click();//enter year
@@ -52,11 +55,11 @@ public class Register extends ReusableCode {
 		xp("zp").sendKeys(obj.getProperty("zipcode"));//enter the zipcode
 		xp("ph").sendKeys(obj.getProperty("phone"));//enter the phoneno
 		xp("create").click();//click on create
-		timeout(3);
+		timeout(1);
 		//Verify that 'ACCOUNT CREATED!' is visible
 		assertEquals(xp("verify").getText().trim(),"ACCOUNT CREATED!");
 		xp("cnt").click();//click on continue button
-		timeout(3);
+		timeout(1);
 		//Verify that 'Logged in as username' is visible
 		//WebElement login =driver.findElement(By.xpath("//a[contains(., 'Logged in as') and .//b]"));
 		//System.out.println(login.getText());
@@ -76,7 +79,8 @@ public class Register extends ReusableCode {
 	public void existing()throws InterruptedException, IOException {
 		//Steps 1&2 are covered in the Base Class
 				//Step-3 Checking Home page Title
-		        timeout(3);
+		        //timeout(3);
+		        System.out.println(driver.getTitle());
 				assertEquals(driver.getTitle(), "Automation Exercise");
 				// Click on 'Signup / Login' button
 				xp("xp").click();
@@ -91,10 +95,16 @@ public class Register extends ReusableCode {
 				xp("xsign").click();
 				//Verify error 'Email Address already exist!' is visible
 				assertEquals(xp("vr").getText(),"Email Address already exist!");
+<<<<<<< HEAD
 				timeout(3);
 
 }
 
+=======
+				timeout(1);
+				xp("home").click();
+				
+>>>>>>> 70ba564051a3e5baa165309948978f07e8cdfdf9
 		
 		
 	}

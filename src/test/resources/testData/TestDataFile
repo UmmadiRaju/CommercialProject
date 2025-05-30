@@ -70,12 +70,48 @@ del=//a[@href='/delete_account']
 dc=//b[text()="Account Deleted!"]
 cc=//a[text()="Continue"]
 vr=//p[text()="Email Address already exist!"]
+<<<<<<< HEAD
 ts=//a[@href="/test_cases"]
+
 test=//b[text()="Test Cases"]
 xz= //a[contains(text(), 'Logged in as') and descendant::b]
 
+-----------------------------------------------------------
+Contact Us
+-----------------------------------------------------------
+contact_us=//a[@href="/contact_us"]
+get_in_touch=//h2[text()="Get In Touch"]
+contact_name=//input[@name="name"]
+cname=Vasantha
+contact_email=//input[@name="email"]
+cemail=test@gamil.com
+contact_subject=//input[@name="subject"]
+csubject=Testing this field & with ID_123
+contact_message=//textarea[@name="message"]
+cmessage=Testing this textarea  & with ID_111 We really appreciate your response to our website.
+contact_upload=//input[@name="upload_file"]
+contact_submit=//input[@name="submit"]
 
-ct= //h2[text()="Category"]
+success=//div[contains(text(),"Success! Your" )and (@class="status alert alert-success")]
+contact_home=//a[@class="btn btn-success"]
+
+-----------------------------------------------------------------------------------------
+Subscription in homepage and Cart page
+-----------------------------------------------------------------------------------------
+subscribe_email=//input[@id="susbscribe_email"]
+semail=test1@gmail.com
+subscription=//h2[text()="Subscription"]
+submit=//button[@id="subscribe"]
+subscribe_message=//div[text()="You have been successfully subscribed!"]
+subscribe_cart=//a[(@href="/view_cart") and (text()=" Cart")]
+=======
+tsx=//a[@href="/test_cases"]
+test=//b[text()="Test Cases"]
+xz= //a[contains(text(), 'Logged in as') and descendant::b]
+home=//a[text()=" Home"]
+
+
+ctp= //h2[text()="Category"]
 xw= //a[@href="#Women"]
 cp //a[@href="/category_products/1"]
 pd =//h2[text()="Women - Dress Products"]
@@ -96,6 +132,31 @@ ar=//i[@class="fa fa-arrow-circle-o-right"]
 al=//div[@class="alert-success alert"]
 
 
+Product Quantity ---------------------
+XPCLK 	= //a[text()=' Products']
+XPLCLK	= //div[@class='product-image-wrapper']
+XPVCLK	= //a[text()='View Product']
+XPPM	= //div[@class='product-information']//h2
+
+
+Contact Us --------------------------
+XCUCLK	= //a[text()=' Contact us']
+XGIT	= //h2[text()='Get In Touch']
+XName	= //input[@name='name']
+XEmail	= //input[@name='email']
+XSubject= //input[@name='subject']
+XMsg	= //textarea[@name='message']
+XUFile	= //input[@name='upload_file']
+XSubmit = //input[@name='submit']
+XSuccess= //div[@class='status alert alert-success']
+XHome	= //a[@class = 'btn btn-success']
+
+CName 		= Raju
+CEmail		= yiborec762@nomrista.com
+CSubject 	= Testing the contact us test case
+CMsg		= I am Raju, automating the contact us test case
+
+Next Test Case ------------------------
 
 
 
@@ -103,8 +164,6 @@ al=//div[@class="alert-success alert"]
 
 
 
-
-
-
+>>>>>>> 7922af434f89e044c10b96935cdc14b30865262e
 
 

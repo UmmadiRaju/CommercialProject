@@ -22,7 +22,7 @@ public class ProductQuantity extends ReusableCode {
 		((JavascriptExecutor)driver).executeScript("window.scrollBy(0,500)");
 		timeout(2);
 		//Step-6 Products list is visible
-		assertEquals(xp("XPCLK").isDisplayed(), true, "Product list is not visible");
+		assertEquals(xp("XPLCLK").isDisplayed(), true, "Product list is not visible");
 		//step-7 Clicking on View Product
 		xp("XPVCLK").click();
 		//Step-8 Checking Product detail page
@@ -39,5 +39,6 @@ public class ProductQuantity extends ReusableCode {
 		for(int i =0; i< pDetails.size(); i++) {
 			assertEquals(pDetails.get(i).getText(), ProductList.get(i));
 		}
+		
 		}
 }

@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
@@ -24,10 +25,89 @@
           </reporter-output>
         </test-method> <!-- Incorrectlogin -->
         <test-method is-config="true" signature="afterTest()[pri:0, instance:testExecutionSuite.TestExecute@645aa696]" started-at="2025-05-26T15:34:01 IST" name="afterTest" finished-at="2025-05-26T15:34:02 IST" duration-ms="439" status="PASS">
+=======
+<<<<<<< HEAD
+<testng-results ignored="5" total="6" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-05-25T23:46:06 IST" name="Default suite" finished-at="2025-05-25T23:46:21 IST" duration-ms="14764">
+    <groups>
+    </groups>
+    <test started-at="2025-05-25T23:46:06 IST" name="Default test" finished-at="2025-05-25T23:46:21 IST" duration-ms="14764">
+      <class name="testExecutionSuite.TestExecute">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:testExecutionSuite.TestExecute@3590fc5b]" started-at="2025-05-25T23:46:06 IST" name="beforeTest" finished-at="2025-05-25T23:46:15 IST" duration-ms="8692" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="Subscription_homepage()[pri:10, instance:testExecutionSuite.TestExecute@3590fc5b]" started-at="2025-05-25T23:46:15 IST" name="Subscription_homepage" finished-at="2025-05-25T23:46:21 IST" duration-ms="5642" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Subscription_homepage -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:testExecutionSuite.TestExecute@3590fc5b]" started-at="2025-05-25T23:46:21 IST" name="afterTest" finished-at="2025-05-25T23:46:21 IST" duration-ms="365" status="PASS">
+=======
+<<<<<<< HEAD
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-05-25T00:47:22 IST" name="Default suite" finished-at="2025-05-25T00:48:31 IST" duration-ms="69657">
+    <groups>
+    </groups>
+    <test started-at="2025-05-25T00:47:22 IST" name="Default test" finished-at="2025-05-25T00:48:31 IST" duration-ms="69657">
+      <class name="testExecutionSuite.TestExecute">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:testExecutionSuite.TestExecute@5dda768f]" started-at="2025-05-25T00:47:22 IST" name="beforeTest" finished-at="2025-05-25T00:47:34 IST" duration-ms="12327" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="Register()[pri:1, instance:testExecutionSuite.TestExecute@5dda768f]" started-at="2025-05-25T00:47:34 IST" name="Register" finished-at="2025-05-25T00:47:49 IST" duration-ms="14441" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Register -->
+        <test-method signature="Existingmail()[pri:2, instance:testExecutionSuite.TestExecute@5dda768f]" started-at="2025-05-25T00:47:49 IST" name="Existingmail" finished-at="2025-05-25T00:47:53 IST" depends-on-methods="testExecutionSuite.TestExecute.Register" duration-ms="4319" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Existingmail -->
+        <test-method signature="Testcasepage()[pri:3, instance:testExecutionSuite.TestExecute@5dda768f]" started-at="2025-05-25T00:47:53 IST" name="Testcasepage" finished-at="2025-05-25T00:47:57 IST" duration-ms="4475" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Testcasepage -->
+        <test-method signature="Categoryproducts()[pri:4, instance:testExecutionSuite.TestExecute@5dda768f]" started-at="2025-05-25T00:47:57 IST" name="Categoryproducts" finished-at="2025-05-25T00:48:15 IST" duration-ms="18047" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Categoryproducts -->
+        <test-method signature="Scroll()[pri:5, instance:testExecutionSuite.TestExecute@5dda768f]" started-at="2025-05-25T00:48:15 IST" name="Scroll" finished-at="2025-05-25T00:48:25 IST" duration-ms="9238" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Scroll -->
+        <test-method signature="sub_cart_page()[pri:6, instance:testExecutionSuite.TestExecute@5dda768f]" started-at="2025-05-25T00:48:25 IST" name="sub_cart_page" finished-at="2025-05-25T00:48:31 IST" duration-ms="6156" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sub_cart_page -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:testExecutionSuite.TestExecute@5dda768f]" started-at="2025-05-25T00:48:31 IST" name="afterTest" finished-at="2025-05-25T00:48:31 IST" duration-ms="581" status="PASS">
+=======
+<testng-results ignored="3" total="4" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-05-25T12:25:23 IST" name="Default suite" finished-at="2025-05-25T12:25:37 IST" duration-ms="14285">
+    <groups>
+    </groups>
+    <test started-at="2025-05-25T12:25:23 IST" name="Default test" finished-at="2025-05-25T12:25:37 IST" duration-ms="14285">
+      <class name="testExecutionSuite.ContactUs">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:testExecutionSuite.ContactUs@58ea606c]" started-at="2025-05-25T12:25:23 IST" name="beforeTest" finished-at="2025-05-25T12:25:28 IST" duration-ms="5465" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="contactUs()[pri:0, instance:testExecutionSuite.ContactUs@58ea606c]" started-at="2025-05-25T12:25:28 IST" name="contactUs" finished-at="2025-05-25T12:25:37 IST" duration-ms="8747" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contactUs -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:testExecutionSuite.ContactUs@58ea606c]" started-at="2025-05-25T12:25:37 IST" name="afterTest" finished-at="2025-05-25T12:25:37 IST" duration-ms="0" status="PASS">
+>>>>>>> 42cbaf34d97bca17529b7602b817b3acab59d5d0
+>>>>>>> 7922af434f89e044c10b96935cdc14b30865262e
+>>>>>>> 70ba564051a3e5baa165309948978f07e8cdfdf9
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-      </class> <!-- testExecutionSuite.TestExecute -->
+      </class> <!-- testExecutionSuite.ContactUs -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
