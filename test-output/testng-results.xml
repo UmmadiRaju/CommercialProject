@@ -1,65 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<<<<<<< HEAD
-<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-05-25T00:47:22 IST" name="Default suite" finished-at="2025-05-25T00:48:31 IST" duration-ms="69657">
+  <suite started-at="2025-05-26T00:45:51 IST" name="Default suite" finished-at="2025-05-26T00:46:33 IST" duration-ms="42295">
     <groups>
     </groups>
-    <test started-at="2025-05-25T00:47:22 IST" name="Default test" finished-at="2025-05-25T00:48:31 IST" duration-ms="69657">
+    <test started-at="2025-05-26T00:45:51 IST" name="Default test" finished-at="2025-05-26T00:46:33 IST" duration-ms="42295">
       <class name="testExecutionSuite.TestExecute">
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:testExecutionSuite.TestExecute@5dda768f]" started-at="2025-05-25T00:47:22 IST" name="beforeTest" finished-at="2025-05-25T00:47:34 IST" duration-ms="12327" status="PASS">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:testExecutionSuite.TestExecute@1757cd72]" started-at="2025-05-26T00:45:51 IST" name="beforeTest" finished-at="2025-05-26T00:45:54 IST" duration-ms="3174" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method signature="Register()[pri:1, instance:testExecutionSuite.TestExecute@5dda768f]" started-at="2025-05-25T00:47:34 IST" name="Register" finished-at="2025-05-25T00:47:49 IST" duration-ms="14441" status="PASS">
+        <test-method signature="AllProducts()[pri:0, instance:testExecutionSuite.TestExecute@1757cd72]" started-at="2025-05-26T00:45:54 IST" name="AllProducts" finished-at="2025-05-26T00:46:16 IST" duration-ms="21936" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Register -->
-        <test-method signature="Existingmail()[pri:2, instance:testExecutionSuite.TestExecute@5dda768f]" started-at="2025-05-25T00:47:49 IST" name="Existingmail" finished-at="2025-05-25T00:47:53 IST" depends-on-methods="testExecutionSuite.TestExecute.Register" duration-ms="4319" status="PASS">
+        </test-method> <!-- AllProducts -->
+        <test-method signature="SearchProduct()[pri:0, instance:testExecutionSuite.TestExecute@1757cd72]" started-at="2025-05-26T00:46:16 IST" name="SearchProduct" finished-at="2025-05-26T00:46:33 IST" duration-ms="17099" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Existingmail -->
-        <test-method signature="Testcasepage()[pri:3, instance:testExecutionSuite.TestExecute@5dda768f]" started-at="2025-05-25T00:47:53 IST" name="Testcasepage" finished-at="2025-05-25T00:47:57 IST" duration-ms="4475" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Testcasepage -->
-        <test-method signature="Categoryproducts()[pri:4, instance:testExecutionSuite.TestExecute@5dda768f]" started-at="2025-05-25T00:47:57 IST" name="Categoryproducts" finished-at="2025-05-25T00:48:15 IST" duration-ms="18047" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Categoryproducts -->
-        <test-method signature="Scroll()[pri:5, instance:testExecutionSuite.TestExecute@5dda768f]" started-at="2025-05-25T00:48:15 IST" name="Scroll" finished-at="2025-05-25T00:48:25 IST" duration-ms="9238" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Scroll -->
-        <test-method signature="sub_cart_page()[pri:6, instance:testExecutionSuite.TestExecute@5dda768f]" started-at="2025-05-25T00:48:25 IST" name="sub_cart_page" finished-at="2025-05-25T00:48:31 IST" duration-ms="6156" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- sub_cart_page -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:testExecutionSuite.TestExecute@5dda768f]" started-at="2025-05-25T00:48:31 IST" name="afterTest" finished-at="2025-05-25T00:48:31 IST" duration-ms="581" status="PASS">
-=======
-<testng-results ignored="3" total="4" passed="1" failed="0" skipped="0">
-  <reporter-output>
-  </reporter-output>
-  <suite started-at="2025-05-25T12:25:23 IST" name="Default suite" finished-at="2025-05-25T12:25:37 IST" duration-ms="14285">
-    <groups>
-    </groups>
-    <test started-at="2025-05-25T12:25:23 IST" name="Default test" finished-at="2025-05-25T12:25:37 IST" duration-ms="14285">
-      <class name="testExecutionSuite.ContactUs">
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:testExecutionSuite.ContactUs@58ea606c]" started-at="2025-05-25T12:25:23 IST" name="beforeTest" finished-at="2025-05-25T12:25:28 IST" duration-ms="5465" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method signature="contactUs()[pri:0, instance:testExecutionSuite.ContactUs@58ea606c]" started-at="2025-05-25T12:25:28 IST" name="contactUs" finished-at="2025-05-25T12:25:37 IST" duration-ms="8747" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- contactUs -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:testExecutionSuite.ContactUs@58ea606c]" started-at="2025-05-25T12:25:37 IST" name="afterTest" finished-at="2025-05-25T12:25:37 IST" duration-ms="0" status="PASS">
->>>>>>> 42cbaf34d97bca17529b7602b817b3acab59d5d0
+        </test-method> <!-- SearchProduct -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:testExecutionSuite.TestExecute@1757cd72]" started-at="2025-05-26T00:46:33 IST" name="afterTest" finished-at="2025-05-26T00:46:33 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-      </class> <!-- testExecutionSuite.ContactUs -->
+      </class> <!-- testExecutionSuite.TestExecute -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

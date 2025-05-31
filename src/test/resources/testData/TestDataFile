@@ -110,6 +110,38 @@ CMsg		= I am Raju, automating the contact us test case
 
 Next Test Case ------------------------
 
+//Test Case 9: Search Product-----------------
+SearchProduct = T-shirt
+XSP = //input[@id='search_product']
+XSB = //button[@id='submit_search']
+XSPV = //h2[text()='Rs. 1299']
+XASPV = //div[@class='product-overlay']
+
+//Test Case 12 : Add Products in Cart
+XFP = //a[@data-product-id='1']
+XCS = //button[text()='Continue Shopping']
+XDP = //a[@data-product-id='2']
+XVC = //u[text()='View Cart']
+XAP = //table[@id='cart_info_table']
+XPCP = //td[@class ='cart_price'] 
+XPCQ =  //td[@class ='cart_quantity'] 
+XPCT =  //td[@class ='cart_total'] 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
