@@ -8,29 +8,21 @@ import basePack.BaseClass;
 
 public class TestExecute extends BaseClass {
 	Register r;
-<<<<<<< HEAD
+
 
 	Login l;
 	//@Test(priority=1)
 
 	//@Test(priority=1)
 
-=======
-<<<<<<< HEAD
-	Login l;
+	//Login l;
 	Contact_us c;
 	Subscription_homepage sh; 
 	Subscription_cartpage sc;
-=======
 
-
->>>>>>> 7922af434f89e044c10b96935cdc14b30865262e
 	
 	@Test(priority=1)
 
-
-	
->>>>>>> 70ba564051a3e5baa165309948978f07e8cdfdf9
 	public void Register() throws IOException, InterruptedException {
 	 r = new Register();
 		r.registertest();
@@ -54,12 +46,11 @@ public class TestExecute extends BaseClass {
 		cp.cproducts();
 		
 	}
-<<<<<<< HEAD
+
 	//@Test(priority=5)
-	public void scroll()throws IOException, InterruptedException{
-		scroll s= new scroll(); 
-=======
-<<<<<<< HEAD
+	//public void scroll()throws IOException, InterruptedException{
+		//scroll s= new scroll(); 
+
 	@Test(priority=6)
 	public void Contact_us() throws InterruptedException, IOException, AWTException {
 		c = new Contact_us();
@@ -78,11 +69,10 @@ public class TestExecute extends BaseClass {
 		sc.subscription_cartpage();
 	}
 	
-=======
+
 	@Test(priority=5)
 	public void Scroll()throws IOException, InterruptedException{
 		Scroll s= new Scroll();
->>>>>>> 70ba564051a3e5baa165309948978f07e8cdfdf9
 		s.sc();
 	}
 	//@Test(priority=6)
@@ -95,7 +85,7 @@ public class TestExecute extends BaseClass {
 		ProductQuantity p = new ProductQuantity();
 		p.productQuantity();
 	}
-<<<<<<< HEAD
+
 	
 	@Test(priority=5)
 	public void Logout() throws InterruptedException, IOException {
@@ -108,13 +98,12 @@ public class TestExecute extends BaseClass {
 		l = new Login();
 		l.inclogin();
 	}
-=======
+
 	@Test(priority=8)
 	public void contactUs() throws InterruptedException {
 		ContactUs c = new ContactUs();
 		c.contactUs();
 	}
 
->>>>>>> 7922af434f89e044c10b96935cdc14b30865262e
->>>>>>> 70ba564051a3e5baa165309948978f07e8cdfdf9
+
 }
