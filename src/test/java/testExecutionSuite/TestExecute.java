@@ -8,9 +8,9 @@ import basePack.BaseClass;
 
 public class TestExecute extends BaseClass {
 	Register r;
-
-
 	Login l;
+	
+	
 	//@Test(priority=1)
 
 	//@Test(priority=1)
@@ -48,19 +48,15 @@ public class TestExecute extends BaseClass {
 	}
 
 	//@Test(priority=5)
-<<<<<<< HEAD
+
 	//public void scroll()throws IOException, InterruptedException{
 		//scroll s= new scroll(); 
 
-=======
-=======
-<<<<<<< HEAD
+
 	//@Test(priority=5)
-	public void scroll()throws IOException, InterruptedException{
-		scroll s= new scroll(); 
-=======
-<<<<<<< HEAD
->>>>>>> e6d07def5b0411323acc6c0206ca0eaadb2b1d6a
+	//public void scroll()throws IOException, InterruptedException{
+		//scroll s= new scroll(); 
+
 	@Test(priority=6)
 	public void Contact_us() throws InterruptedException, IOException, AWTException {
 		c = new Contact_us();
@@ -81,7 +77,7 @@ public class TestExecute extends BaseClass {
 	
 
 	@Test(priority=5)
->>>>>>> 348236317209849f943f9733c3ba0e54f55ce3ef
+
 	public void Scroll()throws IOException, InterruptedException{
 		Scroll s= new Scroll();
 		s.sc();
@@ -96,14 +92,9 @@ public class TestExecute extends BaseClass {
 		ProductQuantity p = new ProductQuantity();
 		p.productQuantity();
 	}
-<<<<<<< HEAD
 
-=======
-<<<<<<< HEAD
 	//@Test(priority=8)
-=======
-<<<<<<< HEAD
->>>>>>> e6d07def5b0411323acc6c0206ca0eaadb2b1d6a
+
 	
 	@Test(priority=5)
 	public void Logout() throws InterruptedException, IOException {
@@ -118,16 +109,11 @@ public class TestExecute extends BaseClass {
 	}
 
 	@Test(priority=8)
->>>>>>> 348236317209849f943f9733c3ba0e54f55ce3ef
+
 	public void contactUs() throws InterruptedException {
 		ContactUs c = new ContactUs();
 		c.contactUs();
 	}
-
-<<<<<<< HEAD
-
-=======
-<<<<<<< HEAD
 	
 	@Test
 	public void SearchProduct() {
@@ -143,44 +129,6 @@ public class TestExecute extends BaseClass {
 		
 		AddProducts A = new AddProducts();
 		A.AP();
-	}
 	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-=======
->>>>>>> 7922af434f89e044c10b96935cdc14b30865262e
->>>>>>> 70ba564051a3e5baa165309948978f07e8cdfdf9
->>>>>>> 348236317209849f943f9733c3ba0e54f55ce3ef
->>>>>>> e6d07def5b0411323acc6c0206ca0eaadb2b1d6a
+}
 }
