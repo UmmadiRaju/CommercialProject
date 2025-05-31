@@ -7,8 +7,26 @@
         <methods>
           <include name="SearchProduct"/>
           <include name="afterTest"/>
+<<<<<<< HEAD
           <include name="beforeTest"/>
           <include name="AllProducts"/>
+=======
+<<<<<<< HEAD
+          <include name="beforeTest"/>
+<<<<<<< HEAD
+          <include name="Incorrectlogin"/>
+=======
+          <include name="Contact_us"/>
+=======
+          <include name="Categoryproducts"/>
+          <include name="beforeTest"/>
+<<<<<<< HEAD
+=======
+          <include name="contactUs"/>
+>>>>>>> 42cbaf34d97bca17529b7602b817b3acab59d5d0
+>>>>>>> 7922af434f89e044c10b96935cdc14b30865262e
+>>>>>>> 70ba564051a3e5baa165309948978f07e8cdfdf9
+>>>>>>> 348236317209849f943f9733c3ba0e54f55ce3ef
         </methods>
       </class> <!-- testExecutionSuite.TestExecute -->
     </classes>

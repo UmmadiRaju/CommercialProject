@@ -95,12 +95,17 @@ public class Register extends ReusableCode {
 				xp("xsign").click();
 				//Verify error 'Email Address already exist!' is visible
 				assertEquals(xp("vr").getText(),"Email Address already exist!");
+<<<<<<< HEAD
+				timeout(3);
+
+}
+
+=======
 				timeout(1);
 				xp("home").click();
 				
+>>>>>>> 70ba564051a3e5baa165309948978f07e8cdfdf9
 		
 		
 	}
 	
-	
-}
