@@ -5,6 +5,7 @@
     <classes>
       <class name="testExecutionSuite.TestExecute">
         <methods>
+<<<<<<< HEAD
           <include name="afterTest"/>
           <include name="Categoryproducts"/>
           <include name="Existingmail"/>
@@ -16,6 +17,40 @@
           <include name="contactUs"/>
           <include name="productQuantity"/>
           <include name="Register"/>
+=======
+<<<<<<< HEAD
+          <include name="SearchProduct"/>
+          <include name="scrollWC"/>
+          <include name="scrollWTC"/>
+          <include name="Existingmail"/>
+          <include name="placeOrderLBC"/>
+          <include name="beforeTest"/>
+          <include name="categoryproducts"/>
+          <include name="AllProducts"/>
+          <include name="Subscription_cartpage"/>
+          <include name="placeOrderRWC"/>
+          <include name="Subscription_homepage"/>
+          <include name="productQuantity"/>
+          <include name="Register"/>
+          <include name="placeOrderRBC"/>
+          <include name="afterTest"/>
+          <include name="productDetails"/>
+          <include name="sub_cart_page"/>
+          <include name="Testcasepage"/>
+          <include name="contactUs"/>
+          <include name="removeProduct"/>
+=======
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+          <include name="Incorrectlogin"/>
+          <include name="Subscription_cartpage"/>
+          <include name="Scroll"/>
+          <include name="Subscription_homepage"/>
+          <include name="Logout"/>
+          <include name="Contact_us"/>
+          <include name="contactUs"/>
+>>>>>>> a0e2e031dfd7c11873046d27f436c503aadb2827
+>>>>>>> bad4c3466ef44faec1e5ed5194348ebbd813a44b
         </methods>
       </class> <!-- testExecutionSuite.TestExecute -->
     </classes>

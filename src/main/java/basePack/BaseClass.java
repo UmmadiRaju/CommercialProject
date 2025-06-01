@@ -51,12 +51,12 @@ public class BaseClass {
 		obj = new Properties();
 		obj.load(file);
 
-		driver.get(obj.getProperty("URL"));
+		//driver.get(obj.getProperty("URL"));
 	}
 
 	@AfterTest
 	public void afterTest() {
-		// driver.quit();
+		 driver.quit();
 	}
 
 }

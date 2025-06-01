@@ -5,7 +5,18 @@ loginxpath------------
 xe = //input[@data-qa="login-email"]
 xpd = //input[@data-qa="login-password"]
 xl = //button[@data-qa="login-button"]
-emailid = moliyir473@leabro.com
+emailid = rajuummadi389@gmail.com
+xlog = //h2[contains(text(), 'Login to your account')]
+
+
+Incorrectpath-----------
+incemail = ramdvn12@gmail.com
+incpwd = Rajuuu
+incpwdv = //p[contains(text(), "Your email or password is incorrect!")]
+
+Logout----------------
+email1 = ramdvn123@gmail.com
+logout = //a[@href="/logout"]
 
 
 Registerxpath---------------------
@@ -13,7 +24,7 @@ xp = //a[@href="/login"]
 xn = //input[@name="name"]
 uname = raju
 xemail= //input[@data-qa="signup-email"]
-email= deepika36@gmail.com
+email= deepika39@gmail.com
 em = deepika7@gmail.com
 xsign= //button[text()='Signup']
 info= //b[text()='Enter Account Information']
@@ -57,6 +68,40 @@ del=//a[@href='/delete_account']
 dc=//b[text()="Account Deleted!"]
 cc=//a[text()="Continue"]
 vr=//p[text()="Email Address already exist!"]
+
+ts=//a[@href="/test_cases"]
+
+test=//b[text()="Test Cases"]
+xz= //a[contains(text(), 'Logged in as')]
+
+-----------------------------------------------------------
+Contact Us
+-----------------------------------------------------------
+contact_us=//a[@href="/contact_us"]
+get_in_touch=//h2[text()="Get In Touch"]
+contact_name=//input[@name="name"]
+cname=Vasantha
+contact_email=//input[@name="email"]
+cemail=test@gamil.com
+contact_subject=//input[@name="subject"]
+csubject=Testing this field & with ID_123
+contact_message=//textarea[@name="message"]
+cmessage=Testing this textarea  & with ID_111 We really appreciate your response to our website.
+contact_upload=//input[@name="upload_file"]
+contact_submit=//input[@name="submit"]
+
+success=//div[contains(text(),"Success! Your" )and (@class="status alert alert-success")]
+contact_home=//a[@class="btn btn-success"]
+
+-----------------------------------------------------------------------------------------
+Subscription in homepage and Cart page
+-----------------------------------------------------------------------------------------
+subscribe_email=//input[@id="susbscribe_email"]
+semail=test1@gmail.com
+subscription = //h2[text()="Subscription"]
+submit=//button[@id="subscribe"]
+subscribe_message=//div[text()="You have been successfully subscribed!"]
+subscribe_cart=//a[(@href="/view_cart") and (text()=" Cart")]
 tsx=//a[@href="/test_cases"]
 test=//b[text()="Test Cases"]
 xz= //a[contains(text(), 'Logged in as') and descendant::b]
@@ -73,8 +118,6 @@ pw = //h2[text()="Men - Tshirts Products"]
 sub=//h2[text()="Subscription"]
 su=//i[@class="fa fa-angle-up"]
 sp=//h2[text()="Full-Fledged practice website for Automation Engineers"]
-
-subscription cart-page
 cart=//a[@href="/view_cart"]
 footer=//*[@id="footer"]
 ts=//h2[text()="Subscription"]
@@ -84,12 +127,42 @@ ar=//i[@class="fa fa-arrow-circle-o-right"]
 al=//div[@class="alert-success alert"]
 
 
-Product Quantity ---------------------
+Product Details ---------------------
 XPCLK 	= //a[text()=' Products']
 XPLCLK	= //div[@class='product-image-wrapper']
 XPVCLK	= //a[text()='View Product']
 XPPM	= //div[@class='product-information']//h2
 
+Product Quantity -------------------
+XQty 	= //input[@name='quantity']
+XACart	= //button[@class='btn btn-default cart']
+XVCart	= //u[text()='View Cart']
+XEQty	= //tr[@id='product-1']
+Qty = 4
+
+Place Order: Register while Checkout ---------
+XPCO	= //a[text()='Proceed To Checkout']
+XRL		= //u[text()='Register / Login']
+XCCLK	= //a[text()=' Cart']
+XADRYO	= //div[@class ='step-one']
+XPO		= //a[text()='Place Order']
+XNCard	= //input[@name='name_on_card']
+XCNum	= //input[@name='card_number']
+XCVC	= //input[@name='cvc']
+XExp	= //input[@name='expiry_month']
+XYrs	= //input[@name='expiry_year']
+XPCOCLK = //button[@id='submit']
+XOP		= //p[text()='Congratulations! Your order has been confirmed!']
+XDA		= //a[text()=" Delete Account"]
+
+NCard	= Appalaraju Ummadi
+CNum	= 8897239560
+CVC		= 986
+Exp		= 10
+Yrs		= 1998
+
+
+XCmt	= This is my first order and thank you so much
 
 Contact Us --------------------------
 XCUCLK	= //a[text()=' Contact us']
@@ -108,6 +181,34 @@ CEmail		= yiborec762@nomrista.com
 CSubject 	= Testing the contact us test case
 CMsg		= I am Raju, automating the contact us test case
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+
+Remove Product ------------------------
+XRP 	= //a[@data-product-id='1']
+XVRP	= //a[text()='Blue Top']
+
+
+
+//Test Case 9: Search Product-----------------
+SearchProduct = T-shirt
+XSP = //input[@id='search_product']
+XSB = //button[@id='submit_search']
+XSPV = //h2[text()='Rs. 1299']
+XASPV = //div[@class='product-overlay']
+
+//Test Case 12 : Add Products in Cart
+XFP = //a[@data-product-id='1']
+XCS = //button[text()='Continue Shopping']
+XDP = //a[@data-product-id='2']
+XVC = //u[text()='View Cart']
+XAP = //table[@id='cart_info_table']
+XPCP = //td[@class ='cart_price'] 
+XPCQ =  //td[@class ='cart_quantity'] 
+XPCT =  //td[@class ='cart_total'] 
+=======
+>>>>>>> bad4c3466ef44faec1e5ed5194348ebbd813a44b
 Cartbrand ------------------------
 prod=//a[@href="/products"]
 brand= //h2[text()="Brands"]
@@ -115,6 +216,11 @@ hm=//a[contains(@href, '/brand_products/H&M')]
 bd=//h2[text()="Brand - H&M Products"]
 polo=//a[contains(@href,"/brand_products/Polo")]
 pl=//h2[text()="Brand - Polo Products"]
+<<<<<<< HEAD
+=======
+>>>>>>> d885ca56ec8e6b2f3a35629713823712f1443ac7
+
+>>>>>>> bad4c3466ef44faec1e5ed5194348ebbd813a44b
 
 
 
