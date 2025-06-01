@@ -1,118 +1,354 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<<<<<<< HEAD
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
-=======
-<<<<<<< HEAD
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="9" passed="2" failed="7" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-05-26T15:33:36 IST" name="Default suite" finished-at="2025-05-26T15:34:02 IST" duration-ms="25882">
+  <suite started-at="2025-05-31T18:52:02 IST" name="Default suite" finished-at="2025-05-31T18:52:46 IST" duration-ms="44508">
     <groups>
     </groups>
-    <test started-at="2025-05-26T15:33:36 IST" name="Default test" finished-at="2025-05-26T15:34:02 IST" duration-ms="25882">
+    <test started-at="2025-05-31T18:52:02 IST" name="Default test" finished-at="2025-05-31T18:52:46 IST" duration-ms="44508">
       <class name="testExecutionSuite.TestExecute">
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:testExecutionSuite.TestExecute@645aa696]" started-at="2025-05-26T15:33:36 IST" name="beforeTest" finished-at="2025-05-26T15:33:40 IST" duration-ms="4247" status="PASS">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:testExecutionSuite.TestExecute@578524c3]" started-at="2025-05-31T18:52:02 IST" name="beforeTest" finished-at="2025-05-31T18:52:13 IST" duration-ms="11332" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method signature="Login()[pri:4, instance:testExecutionSuite.TestExecute@645aa696]" started-at="2025-05-26T15:33:40 IST" name="Login" finished-at="2025-05-26T15:33:49 IST" duration-ms="9335" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Login -->
-        <test-method signature="Logout()[pri:5, instance:testExecutionSuite.TestExecute@645aa696]" started-at="2025-05-26T15:33:49 IST" name="Logout" finished-at="2025-05-26T15:33:56 IST" duration-ms="7175" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Logout -->
-        <test-method signature="Incorrectlogin()[pri:6, instance:testExecutionSuite.TestExecute@645aa696]" started-at="2025-05-26T15:33:57 IST" name="Incorrectlogin" finished-at="2025-05-26T15:34:01 IST" duration-ms="4562" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Incorrectlogin -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:testExecutionSuite.TestExecute@645aa696]" started-at="2025-05-26T15:34:01 IST" name="afterTest" finished-at="2025-05-26T15:34:02 IST" duration-ms="439" status="PASS">
-=======
-<<<<<<< HEAD
-<testng-results ignored="5" total="6" passed="1" failed="0" skipped="0">
-  <reporter-output>
-  </reporter-output>
-  <suite started-at="2025-05-25T23:46:06 IST" name="Default suite" finished-at="2025-05-25T23:46:21 IST" duration-ms="14764">
-    <groups>
-    </groups>
-    <test started-at="2025-05-25T23:46:06 IST" name="Default test" finished-at="2025-05-25T23:46:21 IST" duration-ms="14764">
-      <class name="testExecutionSuite.TestExecute">
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:testExecutionSuite.TestExecute@3590fc5b]" started-at="2025-05-25T23:46:06 IST" name="beforeTest" finished-at="2025-05-25T23:46:15 IST" duration-ms="8692" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method signature="Subscription_homepage()[pri:10, instance:testExecutionSuite.TestExecute@3590fc5b]" started-at="2025-05-25T23:46:15 IST" name="Subscription_homepage" finished-at="2025-05-25T23:46:21 IST" duration-ms="5642" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Subscription_homepage -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:testExecutionSuite.TestExecute@3590fc5b]" started-at="2025-05-25T23:46:21 IST" name="afterTest" finished-at="2025-05-25T23:46:21 IST" duration-ms="365" status="PASS">
-=======
-<<<<<<< HEAD
-<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
->>>>>>> 348236317209849f943f9733c3ba0e54f55ce3ef
-  <reporter-output>
-  </reporter-output>
-  <suite started-at="2025-05-26T00:45:51 IST" name="Default suite" finished-at="2025-05-26T00:46:33 IST" duration-ms="42295">
-    <groups>
-    </groups>
-    <test started-at="2025-05-26T00:45:51 IST" name="Default test" finished-at="2025-05-26T00:46:33 IST" duration-ms="42295">
-      <class name="testExecutionSuite.TestExecute">
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:testExecutionSuite.TestExecute@1757cd72]" started-at="2025-05-26T00:45:51 IST" name="beforeTest" finished-at="2025-05-26T00:45:54 IST" duration-ms="3174" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method signature="AllProducts()[pri:0, instance:testExecutionSuite.TestExecute@1757cd72]" started-at="2025-05-26T00:45:54 IST" name="AllProducts" finished-at="2025-05-26T00:46:16 IST" duration-ms="21936" status="PASS">
+        <test-method signature="AllProducts()[pri:0, instance:testExecutionSuite.TestExecute@578524c3]" started-at="2025-05-31T18:52:13 IST" name="AllProducts" finished-at="2025-05-31T18:52:34 IST" duration-ms="20381" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AllProducts -->
-        <test-method signature="SearchProduct()[pri:0, instance:testExecutionSuite.TestExecute@1757cd72]" started-at="2025-05-26T00:46:16 IST" name="SearchProduct" finished-at="2025-05-26T00:46:33 IST" duration-ms="17099" status="PASS">
+        <test-method signature="SearchProduct()[pri:0, instance:testExecutionSuite.TestExecute@578524c3]" started-at="2025-05-31T18:52:34 IST" name="SearchProduct" finished-at="2025-05-31T18:52:41 IST" duration-ms="7458" status="PASS">
           <reporter-output>
           </reporter-output>
-<<<<<<< HEAD
         </test-method> <!-- SearchProduct -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:testExecutionSuite.TestExecute@1757cd72]" started-at="2025-05-26T00:46:33 IST" name="afterTest" finished-at="2025-05-26T00:46:33 IST" duration-ms="2" status="PASS">
-=======
-        </test-method> <!-- Existingmail -->
-        <test-method signature="Testcasepage()[pri:3, instance:testExecutionSuite.TestExecute@5dda768f]" started-at="2025-05-25T00:47:53 IST" name="Testcasepage" finished-at="2025-05-25T00:47:57 IST" duration-ms="4475" status="PASS">
+        <test-method signature="Logout()[pri:5, instance:testExecutionSuite.TestExecute@578524c3]" started-at="2025-05-31T18:52:41 IST" name="Logout" finished-at="2025-05-31T18:52:43 IST" duration-ms="2073" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Automation Exercise] but found [Automation Exercise - All Products]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Automation Exercise] but found [Automation Exercise - All Products]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at testExecutionSuite.Login.logout(Login.java:35)
+at testExecutionSuite.TestExecute.Logout(TestExecute.java:102)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Testcasepage -->
-        <test-method signature="Categoryproducts()[pri:4, instance:testExecutionSuite.TestExecute@5dda768f]" started-at="2025-05-25T00:47:57 IST" name="Categoryproducts" finished-at="2025-05-25T00:48:15 IST" duration-ms="18047" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Categoryproducts -->
-        <test-method signature="Scroll()[pri:5, instance:testExecutionSuite.TestExecute@5dda768f]" started-at="2025-05-25T00:48:15 IST" name="Scroll" finished-at="2025-05-25T00:48:25 IST" duration-ms="9238" status="PASS">
+        </test-method> <!-- Logout -->
+        <test-method signature="Scroll()[pri:5, instance:testExecutionSuite.TestExecute@578524c3]" started-at="2025-05-31T18:52:43 IST" name="Scroll" finished-at="2025-05-31T18:52:45 IST" duration-ms="2050" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Automation Exercise] but found [Automation Exercise - All Products]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Automation Exercise] but found [Automation Exercise - All Products]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at testExecutionSuite.Scroll.sc(Scroll.java:14)
+at testExecutionSuite.TestExecute.Scroll(TestExecute.java:83)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Scroll -->
-        <test-method signature="sub_cart_page()[pri:6, instance:testExecutionSuite.TestExecute@5dda768f]" started-at="2025-05-25T00:48:25 IST" name="sub_cart_page" finished-at="2025-05-25T00:48:31 IST" duration-ms="6156" status="PASS">
+        <test-method signature="Contact_us()[pri:6, instance:testExecutionSuite.TestExecute@578524c3]" started-at="2025-05-31T18:52:45 IST" name="Contact_us" finished-at="2025-05-31T18:52:45 IST" duration-ms="7" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Automation Exercise] but found [Automation Exercise - All Products]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Automation Exercise] but found [Automation Exercise - All Products]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at testExecutionSuite.Contact_us.contact(Contact_us.java:21)
+at testExecutionSuite.TestExecute.Contact_us(TestExecute.java:63)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- sub_cart_page -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:testExecutionSuite.TestExecute@5dda768f]" started-at="2025-05-25T00:48:31 IST" name="afterTest" finished-at="2025-05-25T00:48:31 IST" duration-ms="581" status="PASS">
-=======
-<testng-results ignored="3" total="4" passed="1" failed="0" skipped="0">
-  <reporter-output>
-  </reporter-output>
-  <suite started-at="2025-05-25T12:25:23 IST" name="Default suite" finished-at="2025-05-25T12:25:37 IST" duration-ms="14285">
-    <groups>
-    </groups>
-    <test started-at="2025-05-25T12:25:23 IST" name="Default test" finished-at="2025-05-25T12:25:37 IST" duration-ms="14285">
-      <class name="testExecutionSuite.ContactUs">
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:testExecutionSuite.ContactUs@58ea606c]" started-at="2025-05-25T12:25:23 IST" name="beforeTest" finished-at="2025-05-25T12:25:28 IST" duration-ms="5465" status="PASS">
+        </test-method> <!-- Contact_us -->
+        <test-method signature="Incorrectlogin()[pri:6, instance:testExecutionSuite.TestExecute@578524c3]" started-at="2025-05-31T18:52:45 IST" name="Incorrectlogin" finished-at="2025-05-31T18:52:46 IST" duration-ms="1025" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Automation Exercise - Signup / Login] but found [Automation Exercise - All Products]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Automation Exercise - Signup / Login] but found [Automation Exercise - All Products]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at testExecutionSuite.Login.inclogin(Login.java:54)
+at testExecutionSuite.TestExecute.Incorrectlogin(TestExecute.java:108)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method signature="contactUs()[pri:0, instance:testExecutionSuite.ContactUs@58ea606c]" started-at="2025-05-25T12:25:28 IST" name="contactUs" finished-at="2025-05-25T12:25:37 IST" duration-ms="8747" status="PASS">
+        </test-method> <!-- Incorrectlogin -->
+        <test-method signature="contactUs()[pri:8, instance:testExecutionSuite.TestExecute@578524c3]" started-at="2025-05-31T18:52:46 IST" name="contactUs" finished-at="2025-05-31T18:52:46 IST" duration-ms="14" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Automation Exercise] but found [Automation Exercise - All Products]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Automation Exercise] but found [Automation Exercise - All Products]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at testExecutionSuite.ContactUs.contactUs(ContactUs.java:14)
+at testExecutionSuite.TestExecute.contactUs(TestExecute.java:115)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- contactUs -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:testExecutionSuite.ContactUs@58ea606c]" started-at="2025-05-25T12:25:37 IST" name="afterTest" finished-at="2025-05-25T12:25:37 IST" duration-ms="0" status="PASS">
->>>>>>> 42cbaf34d97bca17529b7602b817b3acab59d5d0
->>>>>>> 7922af434f89e044c10b96935cdc14b30865262e
->>>>>>> 70ba564051a3e5baa165309948978f07e8cdfdf9
->>>>>>> 348236317209849f943f9733c3ba0e54f55ce3ef
+        <test-method signature="Subscription_homepage()[pri:10, instance:testExecutionSuite.TestExecute@578524c3]" started-at="2025-05-31T18:52:46 IST" name="Subscription_homepage" finished-at="2025-05-31T18:52:46 IST" duration-ms="16" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Automation Exercise] but found [Automation Exercise - All Products]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Automation Exercise] but found [Automation Exercise - All Products]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at testExecutionSuite.Subscription_homepage.subscription_homepage(Subscription_homepage.java:13)
+at testExecutionSuite.TestExecute.Subscription_homepage(TestExecute.java:69)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Subscription_homepage -->
+        <test-method signature="Subscription_cartpage()[pri:11, instance:testExecutionSuite.TestExecute@578524c3]" started-at="2025-05-31T18:52:46 IST" name="Subscription_cartpage" finished-at="2025-05-31T18:52:46 IST" duration-ms="10" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Automation Exercise] but found [Automation Exercise - All Products]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Automation Exercise] but found [Automation Exercise - All Products]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at testExecutionSuite.Subscription_cartpage.subscription_cartpage(Subscription_cartpage.java:14)
+at testExecutionSuite.TestExecute.Subscription_cartpage(TestExecute.java:75)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Subscription_cartpage -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:testExecutionSuite.TestExecute@578524c3]" started-at="2025-05-31T18:52:46 IST" name="afterTest" finished-at="2025-05-31T18:52:46 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
