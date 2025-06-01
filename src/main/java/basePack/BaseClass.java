@@ -36,6 +36,7 @@ public class BaseClass {
 		// Start Chrome in incognito mode and disable notifications
 		options.addArguments("--incognito");
 		options.addArguments("--disable-notifications");
+		options.addArguments("--disable-save-password-bubble");
 		
 		driver = new ChromeDriver(options);
 		driver.manage().window().maximize();
@@ -44,6 +45,11 @@ public class BaseClass {
 		FileInputStream file = new FileInputStream(System.getProperty("user.dir") + "/src/test/resources/testData/TestDataFile");
 		obj = new Properties();
 		obj.load(file);
+<<<<<<< HEAD
+=======
+
+		//driver.get(obj.getProperty("URL"));
+>>>>>>> 2fad1e1a14f85d46db2f90850589400c18c49839
 	}
 
 	@AfterTest

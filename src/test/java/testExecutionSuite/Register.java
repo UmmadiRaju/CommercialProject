@@ -46,6 +46,7 @@ public class Register extends ReusableCode {
 		// Address information
 		xp("aname").sendKeys(obj.getProperty("name"));// enter First name
 		xp("alast").sendKeys(obj.getProperty("last"));// enter last name
+<<<<<<< HEAD
 		xp("cm").sendKeys(obj.getProperty("com"));// Enter password
 		xp("ad").sendKeys(obj.getProperty("address"));// enter address1
 		xp("ad2").sendKeys(obj.getProperty("address2"));// enter address2
@@ -65,6 +66,27 @@ public class Register extends ReusableCode {
 		// as') and .//b]"));
 		// System.out.println(login.getText());
 		assertEquals(xp("xz").isDisplayed(), true, "not existed");
+=======
+		xp("cm").sendKeys(obj.getProperty("com"));//Enter password
+		xp("ad").sendKeys(obj.getProperty("address"));//enter address1
+		xp("ad2").sendKeys(obj.getProperty("address2"));//enter address2
+		xp("country").click();//select country
+		xp("st").sendKeys(obj.getProperty("state"));//enter the state
+		xp("ctx").sendKeys(obj.getProperty("city"));//enter the city
+		xp("zp").sendKeys(obj.getProperty("zipcode"));//enter the zipcode
+		xp("ph").sendKeys(obj.getProperty("phone"));//enter the phoneno
+		xp("create").click();//click on create
+		timeout(1);
+		//Verify that 'ACCOUNT CREATED!' is visible
+		assertEquals(xp("verify").getText().trim(),"ACCOUNT CREATED!");
+		xp("cnt").click();//click on continue button
+		timeout(1);
+		//Verify that 'Logged in as username' is visible
+		//WebElement login =driver.findElement(By.xpath("//a[contains(., 'Logged in as') and .//b]"));
+		//System.out.println(login.getText());
+        assertEquals(xp("xz").isDisplayed(),true,"not existed");
+		
+>>>>>>> 2fad1e1a14f85d46db2f90850589400c18c49839
 
 		// Click 'Delete Account' button
 		xp("del").click();
@@ -75,6 +97,7 @@ public class Register extends ReusableCode {
 
 	}
 
+<<<<<<< HEAD
 	public void existing() throws InterruptedException, IOException {
 		// Steps 1 is covered in the Base Class
 		// Step 2 Navigate to url 'http://automationexercise.com'
@@ -99,4 +122,32 @@ public class Register extends ReusableCode {
 
 	}
 
+=======
+	public void existing()throws InterruptedException, IOException {
+		//Steps 1&2 are covered in the Base Class
+				//Step-3 Checking Home page Title
+		        //timeout(3);
+		        System.out.println(driver.getTitle());
+				assertEquals(driver.getTitle(), "Automation Exercise");
+				// Click on 'Signup / Login' button
+				xp("xp").click();
+				//Verify 'New User Signup!' is visible
+				assertEquals(xp("xp").getText(),"Signup / Login");
+				//Enter name and already registered email address
+				//enter username
+				xp("xn").sendKeys(obj.getProperty("uname"));
+				//enter already register email
+				xp("xemail").sendKeys(obj.getProperty("em"));
+				//Click 'Signup' button
+				xp("xsign").click();
+				//Verify error 'Email Address already exist!' is visible
+				assertEquals(xp("vr").getText(),"Email Address already exist!");
+
+				//timeout(3);
+				timeout(1);
+				xp("home").click();
+		
+	}
+>>>>>>> 2fad1e1a14f85d46db2f90850589400c18c49839
 }
+	
