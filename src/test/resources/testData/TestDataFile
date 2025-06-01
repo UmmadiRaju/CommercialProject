@@ -108,7 +108,14 @@ CEmail		= yiborec762@nomrista.com
 CSubject 	= Testing the contact us test case
 CMsg		= I am Raju, automating the contact us test case
 
-Next Test Case ------------------------
+Cartbrand ------------------------
+prod=//a[@href="/products"]
+brand= //h2[text()="Brands"]
+hm=//a[contains(@href, '/brand_products/H&M')]
+bd=//h2[text()="Brand - H&M Products"]
+polo=//a[contains(@href,"/brand_products/Polo")]
+pl=//h2[text()="Brand - Polo Products"]
+
 
 
 
