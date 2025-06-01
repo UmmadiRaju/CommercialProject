@@ -5,10 +5,10 @@ loginxpath------------
 xe = //input[@data-qa="login-email"]
 xpd = //input[@data-qa="login-password"]
 xl = //button[@data-qa="login-button"]
-emailid = xegixe8034@dlbazi.com
+emailid = rajuummadi389@gmail.com
 xlog = //h2[contains(text(), 'Login to your account')]
 
-<<<<<<< HEAD
+
 Incorrectpath-----------
 incemail = ramdvn12@gmail.com
 incpwd = Rajuuu
@@ -18,15 +18,13 @@ Logout----------------
 email1 = ramdvn123@gmail.com
 logout = //a[@href="/logout"]
 
-=======
->>>>>>> 9f9a5a1d03636e190624b16061cbd6bab60da6b3
 
 Registerxpath---------------------
 xp = //a[@href="/login"]
 xn = //input[@name="name"]
 uname = raju
 xemail= //input[@data-qa="signup-email"]
-email= deepika37@gmail.com
+email= deepika39@gmail.com
 em = deepika7@gmail.com
 xsign= //button[text()='Signup']
 info= //b[text()='Enter Account Information']
@@ -34,7 +32,7 @@ info= //b[text()='Enter Account Information']
 
 xradio= //input[@type='radio' and @value='Mrs']
 xpwd= //input[@type='password']
-pwd= Raju@1234
+pwd= Raju@123
 xday= //select[@id='days']/option[@value='15']
 xmonth= //select[@data-qa="months"]/option[@value='3']
 xyear= //select[@data-qa="years"]/option[@value='2007']
@@ -70,11 +68,11 @@ del=//a[@href='/delete_account']
 dc=//b[text()="Account Deleted!"]
 cc=//a[text()="Continue"]
 vr=//p[text()="Email Address already exist!"]
-<<<<<<< HEAD
+
 ts=//a[@href="/test_cases"]
 
 test=//b[text()="Test Cases"]
-xz= //a[contains(text(), 'Logged in as') and descendant::b]
+xz= //a[contains(text(), 'Logged in as')]
 
 -----------------------------------------------------------
 Contact Us
@@ -100,11 +98,10 @@ Subscription in homepage and Cart page
 -----------------------------------------------------------------------------------------
 subscribe_email=//input[@id="susbscribe_email"]
 semail=test1@gmail.com
-subscription=//h2[text()="Subscription"]
+subscription = //h2[text()="Subscription"]
 submit=//button[@id="subscribe"]
 subscribe_message=//div[text()="You have been successfully subscribed!"]
 subscribe_cart=//a[(@href="/view_cart") and (text()=" Cart")]
-=======
 tsx=//a[@href="/test_cases"]
 test=//b[text()="Test Cases"]
 xz= //a[contains(text(), 'Logged in as') and descendant::b]
@@ -121,8 +118,6 @@ pw = //h2[text()="Men - Tshirts Products"]
 sub=//h2[text()="Subscription"]
 su=//i[@class="fa fa-angle-up"]
 sp=//h2[text()="Full-Fledged practice website for Automation Engineers"]
-
-subscription cart-page
 cart=//a[@href="/view_cart"]
 footer=//*[@id="footer"]
 ts=//h2[text()="Subscription"]
@@ -186,12 +181,12 @@ CEmail		= yiborec762@nomrista.com
 CSubject 	= Testing the contact us test case
 CMsg		= I am Raju, automating the contact us test case
 
-<<<<<<< HEAD
+
 Remove Product ------------------------
 XRP 	= //a[@data-product-id='1']
 XVRP	= //a[text()='Blue Top']
-=======
-Next Test Case ------------------------
+
+
 
 //Test Case 9: Search Product-----------------
 SearchProduct = T-shirt
@@ -209,7 +204,6 @@ XAP = //table[@id='cart_info_table']
 XPCP = //td[@class ='cart_price'] 
 XPCQ =  //td[@class ='cart_quantity'] 
 XPCT =  //td[@class ='cart_total'] 
->>>>>>> 2fad1e1a14f85d46db2f90850589400c18c49839
 
 
 
@@ -218,20 +212,5 @@ XPCT =  //td[@class ='cart_total']
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
->>>>>>> 7922af434f89e044c10b96935cdc14b30865262e
 
 

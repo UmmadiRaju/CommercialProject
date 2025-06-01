@@ -32,8 +32,7 @@ public class ContactUs extends ReusableCode {
 		// Click OK button
 		Alert alert = driver.switchTo().alert();
 		alert.accept();
-		// Verify success message 'Success! Your details have been submitted
-		// successfully.' is visible
+		// Verify success message 'Success! Your details have been submitted successfully.' is visible
 		assertEquals(xp("XSuccess").getText(), "Success! Your details have been submitted successfully.");
 		// Click 'Home' button and verify that landed to home page successfully
 		xp("XHome").click();

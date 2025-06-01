@@ -4,12 +4,11 @@ import static org.testng.Assert.assertEquals;
 import java.io.IOException;
 import org.openqa.selenium.JavascriptExecutor;
 
-
 public class Subscription_cartpage extends ReusableCode {
-	
 
 	public void subscription_cartpage() throws InterruptedException, IOException {
-		
+		// Step 2 Navigate to url 'http://automationexercise.com'
+		driver.get(obj.getProperty("URL"));
 		// Verify that home page is visible successfully
 		assertEquals(driver.getTitle(), "Automation Exercise");
 		System.out.println(driver.getTitle());

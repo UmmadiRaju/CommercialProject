@@ -30,8 +30,6 @@ public class PlaceOrderRBC extends ReusableCode {
 		xp("xradio").click();
 		((JavascriptExecutor) driver).executeScript("window.scrollBy(0,200)");
 		xp("xpwd").sendKeys(obj.getProperty("pwd"));
-		((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);",
-				driver.findElement(By.id("your-element-id")));
 		xp("xday").click();
 		xp("xmonth").click();
 		xp("xyear").click();
@@ -58,7 +56,7 @@ public class PlaceOrderRBC extends ReusableCode {
 		assertEquals(xp("xz").isDisplayed(), true, "not existed");
 		// Step 8 Add products to cart
 		xp("XPCLK").click();
-		((JavascriptExecutor) driver).executeScript("window.scrollBy(0,500)");
+		((JavascriptExecutor) driver).executeScript("window.scrollBy(0,300)");
 		timeout(2);
 		xp("XPVCLK").click();
 		xp("XACart").click();
@@ -87,7 +85,7 @@ public class PlaceOrderRBC extends ReusableCode {
 		// Step 16 Verify success message 'Your order has been placed successfully!'
 		assertEquals(xp("XOP").getText(), "Congratulations! Your order has been confirmed!");
 		// Step 17 Click 'Delete Account' button
-		xp("XDA").click();
+	    xp("XDA").click();
 		// Step 18 Verify 'ACCOUNT DELETED!' and click 'Continue' button
 		xp("cc").click();
 	}

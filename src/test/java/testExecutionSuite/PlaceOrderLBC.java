@@ -15,9 +15,10 @@ public class PlaceOrderLBC extends ReusableCode {
 		// Step 4 Click 'Signup / Login' button
 		xp("xp").click();
 		// Step 5 Fill email, password and click 'Login' button
-		xp("xe").sendKeys(obj.getProperty("email"));
-		xp("xpd").sendKeys(obj.getProperty("password"));
+		xp("xe").sendKeys(obj.getProperty("emailid"));
+		xp("xpd").sendKeys(obj.getProperty("pwd"));
 		xp("xl").click();
+		timeout(2);
 		// Step 6 Verify 'Logged in as username' at top
 		assertEquals(xp("xz").isDisplayed(), true, "not existed");
 		// Step 7 Add products to cart

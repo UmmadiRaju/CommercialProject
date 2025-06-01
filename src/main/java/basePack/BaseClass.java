@@ -45,11 +45,8 @@ public class BaseClass {
 		FileInputStream file = new FileInputStream(System.getProperty("user.dir") + "/src/test/resources/testData/TestDataFile");
 		obj = new Properties();
 		obj.load(file);
-<<<<<<< HEAD
-=======
 
 		//driver.get(obj.getProperty("URL"));
->>>>>>> 2fad1e1a14f85d46db2f90850589400c18c49839
 	}
 
 	@AfterTest
