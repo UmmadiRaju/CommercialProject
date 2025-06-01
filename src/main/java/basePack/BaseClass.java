@@ -44,13 +44,11 @@ public class BaseClass {
 		FileInputStream file = new FileInputStream(System.getProperty("user.dir") + "/src/test/resources/testData/TestDataFile");
 		obj = new Properties();
 		obj.load(file);
-
-		driver.get(obj.getProperty("URL"));
 	}
 
 	@AfterTest
 	public void afterTest() {
-		// driver.quit();
+		 driver.quit();
 	}
 
 }

@@ -10,35 +10,34 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 
 public class ProductQuantity extends ReusableCode {
-	public void PQuantity() throws InterruptedException {
-		//Steps 1&2 are covered in the Base Class
-		//Step-3 Checking Home page Title
+	public void pQuantity() throws InterruptedException {
+		// Steps 1 is covered in the Base Class
+		// Step 2 Navigate to url 'http://automationexercise.com'
+		driver.get(obj.getProperty("URL"));
+		// Step-3 Checking Home page Title
 		assertEquals(driver.getTitle(), "Automation Exercise");
-		//Step-4 Clicking on Products
+		// Step-4 Clicking on Products
 		xp("XPCLK").click();
-		//Step-5 Checking All Product page
+		// Step-4a Checking All Product page
 		assertEquals(driver.getTitle(), "Automation Exercise - All Products");
-		//Scrolling page 
-		((JavascriptExecutor)driver).executeScript("window.scrollBy(0,500)");
+		// Scrolling page
+		((JavascriptExecutor) driver).executeScript("window.scrollBy(0,500)");
 		timeout(2);
-		//Step-6 Products list is visible
-		assertEquals(xp("XPLCLK").isDisplayed(), true, "Product list is not visible");
-		//step-7 Clicking on View Product
+		// step-4b Clicking on View Product
 		xp("XPVCLK").click();
-		//Step-8 Checking Product detail page
+		// Step-5 Checking Product detail page
 		assertEquals(driver.getTitle(), "Automation Exercise - Product Details");
-		//Step-9(a) Checking product model
-		assertEquals(xp("XPPM").getText(), "Blue Top");
-		//Step-9(b) Checking product details
-		List<WebElement> pDetails = driver.findElements(By.xpath("//div[@class = 'product-information']//p"));
-		ArrayList <Object> ProductList = new ArrayList<Object>();
-		ProductList.add("Category: Women > Tops");
-		ProductList.add("Availability: In Stock");
-		ProductList.add("Condition: New");
-		ProductList.add("Brand: Polo");
-		for(int i =0; i< pDetails.size(); i++) {
-			assertEquals(pDetails.get(i).getText(), ProductList.get(i));
-		}
-		
-		}
+		// Step-6 Increase quantity to 4
+		xp("XQty").clear();
+		timeout(1);
+		xp("XQty").sendKeys(obj.getProperty("Qty"));
+		// Step-7 Click 'Add to cart' button
+		xp("XACart").click();
+		timeout(2);
+		// Step-8 Click 'View Cart' button
+		xp("XVCart").click();
+		timeout(2);
+		// Step-9 Verify that product is displayed in cart page with exact quantity
+		assertEquals(xp("XEQty").isDisplayed(), true, "Product Quantity is not displayed");
+	}
 }
