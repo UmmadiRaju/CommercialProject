@@ -10,6 +10,7 @@ import java.util.Properties;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.devtools.v132.filesystem.model.File;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 
@@ -37,6 +38,10 @@ public class BaseClass {
 		options.addArguments("--incognito");
 		options.addArguments("--disable-notifications");
 		options.addArguments("--disable-save-password-bubble");
+		//C:\Users\Admin\git\CommercialProject/crx
+		 //File file1= new File("C:\\Users\\Admin\\git\\CommercialProject/crx.crx");
+	   
+	    //options.addExtensions(file1);
 		
 		driver = new ChromeDriver(options);
 		driver.manage().window().maximize();

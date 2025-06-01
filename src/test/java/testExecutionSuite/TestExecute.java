@@ -19,7 +19,7 @@ public class TestExecute extends BaseClass {
 		r.registertest();
 	}
 	
-	@Test(priority=2, dependsOnMethods={"Register"})
+     @Test(priority=2, dependsOnMethods={"Register"})
 	public void Existingmail()throws IOException, InterruptedException {
 		 r= new Register();
 		 r.existing();
@@ -56,6 +56,11 @@ public class TestExecute extends BaseClass {
 	public void contactUs() throws InterruptedException {
 		ContactUs c = new ContactUs();
 		c.contactUs();
+	}
+	@Test(priority=9)
+	public void Cartbrand()throws InterruptedException, IOException{
+		Cartbrand c= new Cartbrand();
+		 c.cb();
 	}
 
 }

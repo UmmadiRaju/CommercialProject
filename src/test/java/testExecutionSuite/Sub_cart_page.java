@@ -29,6 +29,7 @@ public class Sub_cart_page extends ReusableCode {
 			assertEquals(xp("al").isDisplayed(),true,"'You have been successfully'not allowed");
 			//assertEquals(xp("al").getText(),"You have been successfully subscribed!");
 			System.out.println("Text found: '" + xp("al").getText() + "'");
+			xp("home").click();
 		
 
 
