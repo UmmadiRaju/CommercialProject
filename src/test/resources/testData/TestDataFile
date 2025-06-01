@@ -181,6 +181,7 @@ CEmail		= yiborec762@nomrista.com
 CSubject 	= Testing the contact us test case
 CMsg		= I am Raju, automating the contact us test case
 
+<<<<<<< HEAD
 
 Remove Product ------------------------
 XRP 	= //a[@data-product-id='1']
@@ -204,6 +205,15 @@ XAP = //table[@id='cart_info_table']
 XPCP = //td[@class ='cart_price'] 
 XPCQ =  //td[@class ='cart_quantity'] 
 XPCT =  //td[@class ='cart_total'] 
+=======
+Cartbrand ------------------------
+prod=//a[@href="/products"]
+brand= //h2[text()="Brands"]
+hm=//a[contains(@href, '/brand_products/H&M')]
+bd=//h2[text()="Brand - H&M Products"]
+polo=//a[contains(@href,"/brand_products/Polo")]
+pl=//h2[text()="Brand - Polo Products"]
+>>>>>>> d885ca56ec8e6b2f3a35629713823712f1443ac7
 
 
 
