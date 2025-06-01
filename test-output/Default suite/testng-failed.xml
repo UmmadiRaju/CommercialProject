@@ -5,6 +5,7 @@
     <classes>
       <class name="testExecutionSuite.TestExecute">
         <methods>
+<<<<<<< HEAD
           <include name="SearchProduct"/>
           <include name="scrollWC"/>
           <include name="scrollWTC"/>
@@ -25,6 +26,17 @@
           <include name="Testcasepage"/>
           <include name="contactUs"/>
           <include name="removeProduct"/>
+=======
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+          <include name="Incorrectlogin"/>
+          <include name="Subscription_cartpage"/>
+          <include name="Scroll"/>
+          <include name="Subscription_homepage"/>
+          <include name="Logout"/>
+          <include name="Contact_us"/>
+          <include name="contactUs"/>
+>>>>>>> a0e2e031dfd7c11873046d27f436c503aadb2827
         </methods>
       </class> <!-- testExecutionSuite.TestExecute -->
     </classes>
